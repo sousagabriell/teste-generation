@@ -1,0 +1,25 @@
+.nav{
+    background-color: #FFf;
+    /* #FC7905 */
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+a:hover {
+    background-color: #fc7905;
+    color: #Fff !important;
+    transition: 0.2s;
+    height: 100% !important;
+    border-radius: 18px;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.nav > img {
+    margin: 30px 50px;
+}

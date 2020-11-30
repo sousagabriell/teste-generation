@@ -1,0 +1,24 @@
+body {
+    font-family: 'Roboto';font-size: 16px;
+}
+.jumbotron {
+background: #FC8905;
+color: #FFF;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #FFF;
+}
+.h1 small {
+font-size: 24px;
+}
+
+.input-focus:focus{
+    border: 2px solid #FC8905 !important;
+    box-shadow: none;
+}
+.btn-enviar{
+    border-radius: 20px;
+}

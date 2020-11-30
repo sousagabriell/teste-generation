@@ -1,0 +1,57 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    margin-top: 20px;
+    width: 100%;
+    height: 82vh;
+    background-image: linear-gradient(8deg, #FC8905 0%, #F14D5C 60%) !important;
+    background-size: 400%;
+    animation: colors 6s infinite;
+}
+@keyframes colors{
+    0%{
+        background-position: 0% 50% ;
+    }
+
+    50%{
+        background-position: 80% 50%;
+    }
+
+    100%{
+        background-position: 0% 50% ;
+    }
+}
+.first-text{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20%;
+    color: white;
+}
+.first-text > h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+.cont-about{
+    width: 100%;
+    height: 82vh;
+    background-image: linear-gradient(8deg, #FC8905 0%, #F14D5C 60%) !important;
+    background-size: 400%;
+    animation: colors 6s infinite;
+}
+iframe{
+    margin-top: -190px;
+}
+.footer{
+    margin-top: 70px;
+    background-color: #F14D5C;
+    height: 65px;
+    padding-top: 10px;
+    color: #fff;
+}
+.footer-copyright > a {
+    color: white;
+    text-decoration: underline;
+}
